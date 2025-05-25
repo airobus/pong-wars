@@ -1,16 +1,16 @@
 export const colorPalette = {
-  neonPink: "#FF2D76",
-  neonBlue: "#00F3FF",
-  darkPurple: "#1A0B1C",
-  neonPurple: "#B537F2",
-  darkBlue: "#0A192F",
-  cyberpunkYellow: "#F2E750"
+  ArcticPowder: "#F1F6F4",
+  MysticMint: "#D9E8E3",
+  Forsythia: "#FFC801",
+  DeepSaffron: "#FF9932",
+  NocturnalExpedition: "#114C5A",
+  OceanicNoir: "#172B36",
 };
 
-export const DAY_COLOR = colorPalette.neonPink;
-export const DAY_BALL_COLOR = colorPalette.neonBlue;
-export const NIGHT_COLOR = colorPalette.darkPurple;
-export const NIGHT_BALL_COLOR = colorPalette.neonPurple;
+export const DAY_COLOR = colorPalette.MysticMint;
+export const DAY_BALL_COLOR = colorPalette.NocturnalExpedition;
+export const NIGHT_COLOR = colorPalette.NocturnalExpedition;
+export const NIGHT_BALL_COLOR = colorPalette.MysticMint;
 export const SQUARE_SIZE = 25;
 export const MIN_SPEED = 5;
 export const MAX_SPEED = 10;
