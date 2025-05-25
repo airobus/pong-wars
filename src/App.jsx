@@ -11,14 +11,14 @@ function App() {
   return (
     <div id="container">
       <canvas ref={canvasRef} id="pongCanvas" width="600" height="600" />
-      <div ref={scoreRef} id="score">day {dayScore} | night {nightScore}</div>
+      <div ref={scoreRef} id="score">NEON {dayScore} | SHADOW {nightScore}</div>
       <p id="made">
-        made by
-        <a href="https://koenvangilst.nl/labs/pong-wars">Koen van Gilst</a> | source on
-        <a href="https://github.com/vnglst/pong-wars">github</a>
+        [SYSTEM] >> created by
+        <a href="https://koenvangilst.nl/labs/pong-wars"> Koen van Gilst</a> | source:
+        <a href="https://github.com/vnglst/pong-wars"> github</a>
       </p>
     </div>
   );
 }
 
-export default App
+export default App;
