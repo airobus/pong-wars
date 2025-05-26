@@ -13,10 +13,6 @@ function SeasonsPong() {
       <div ref={scoreRef} id="seasons-score">
         spring {springScore} | summer {summerScore} | autumn {autumnScore} | winter {winterScore}
       </div>
-      <p id="seasons-made">
-        four seasons edition | made by
-        <a href="https://koenvangilst.nl/labs/pong-wars">Koen van Gilst</a>
-      </p>
     </div>
   );
 }
