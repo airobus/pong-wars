@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 
 const SPRING_COLOR = '#c6dabf';  // Soft green
-const SPRING_BALL_COLOR = '#81b29a';
+const SPRING_BALL_COLOR = '#2d5a27';  // Deep forest green
 const SUMMER_COLOR = '#f2cc8f';  // Warm yellow
-const SUMMER_BALL_COLOR = '#e88d67';
+const SUMMER_BALL_COLOR = '#b44c43';  // Deep red
 const AUTUMN_COLOR = '#e88d67';  // Orange
-const AUTUMN_BALL_COLOR = '#b8695f';
+const AUTUMN_BALL_COLOR = '#8b4513';  // Saddle brown
 const WINTER_COLOR = '#e0e1dd';  // Snow white
-const WINTER_BALL_COLOR = '#3d405b';
+const WINTER_BALL_COLOR = '#1a1b2f';  // Deep navy
 
 const SQUARE_SIZE = 25;
 const MIN_SPEED = 5;
